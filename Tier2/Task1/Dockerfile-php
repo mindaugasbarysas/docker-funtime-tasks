@@ -1,0 +1,4 @@
+FROM php5.6-fpm
+ADD hello_world.php /
+RUN mkdir /code
+RUN mv hello_world.php /code
